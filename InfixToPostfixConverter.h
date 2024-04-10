@@ -52,8 +52,7 @@ public:
 				continue;
 			else
 			{
-				while (!operatorStack.empty() && getOperatorPrecedence(character)
-					<= getOperatorPrecedence(operatorStack.top()))
+				while (!operatorStack.empty() && getOperatorPrecedence(character) <= getOperatorPrecedence(operatorStack.top()))
 				{
 					postfix += operatorStack.top();
 					operatorStack.pop();

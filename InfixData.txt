@@ -1,4 +1,4 @@
-A + B â€“ C
+A + B – C
 (A + B) * C
 (A + B) * (C - D)
 A + ((B + C) * (E - F) - G) / (H - I)

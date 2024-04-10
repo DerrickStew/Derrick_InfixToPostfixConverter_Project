@@ -8,10 +8,13 @@
 int main()
 {
     InfixToPostfixConverter convert;
-    ifstream textFile("InfixData.txt");
+    ifstream textFile ("InfixData.txt");
     // check if file is open
     if (!textFile.is_open())
+    {
         cout << "Error opening file";
+        return 1;
+    }
 
     string infix;
     // convert InfixData.txt infix expressions into postfix expressions
@@ -22,4 +25,5 @@ int main()
         cout << "Postfix expression: " << convert.getPostfix() << "\n\n";
     }
     textFile.close();
+    return 0;
 }
