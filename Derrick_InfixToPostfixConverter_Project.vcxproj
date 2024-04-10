@@ -129,6 +129,12 @@
   <ItemGroup>
     <ClCompile Include="Derrick_InfixToPostfixConverter_Project.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="InfixToPostfixConverter.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="InfixData.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
